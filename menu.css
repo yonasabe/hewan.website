@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-right: 40px;
+    
+}
+li{
+    list-style-type: none;
+    margin-left: 40px;
+    float: right;
+    transition: ease-in-out 0.4s;
+   
+    
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: brown;
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li :hover{
+    background-color:brown;
+   color:yellow;
+   border-radius: 10px;
+   
+}
+.form{
+    background-color:transparent;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    width: 400px;
+    border-radius: 16px;
+    border: 2px solid yellow;
+    height: 300px;
+}
+.form h1{
+    text-align: center;
+    color: brown;
+    padding: 0 0 20px 0;
+}
+.form form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+form .input{
+    position: relative;
+    margin: 30px;
+    
+}
+form .input input{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+form .input2{
+    position: relative;
+    margin: 30px;
+}
+form .input2 input{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.btn{
+    width: 100%;
+}
+.btn :hover{
+    color: black;
+    background-color: yellow;
+}
